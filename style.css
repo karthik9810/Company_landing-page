@@ -1,0 +1,40 @@
+
+nav.first {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+.logo{
+    font-size: 30px;
+}
+
+nav.first .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+nav.first .menu a:hover {
+    color: #ddd;
+}
+
+nav.second {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav.second a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav.second a:hover {
+    text-decoration: underline;
+}
